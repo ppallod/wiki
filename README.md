@@ -14,11 +14,11 @@ When a user visits `/` route, they will be presented with a list of all the entr
 
 #### Search
 
-The `/` route has a search bar that can used to find a particular entry. If the searched string matches with the title of a particular entry, the user is redirected to that entry's page. Otherwise the application would display a list of potential matches by searching for partial matches.
+The `/` route has a search bar that can used to find a particular entry. If the search string matches with the title of a particular entry, the user is redirected to that entry's page. Otherwise the application would display a list of potential matches by searching for partial matches.
 
 #### New Page
 
-When clicked on the **Create New Page** in the sidebar, the user is taken to the page where they can create a new encyclopedia entry. They can provide the title for that entry along with the `markdown` content in the textarea. If an entry with the same title already exists, the user would be displayed with an error message. Or else, a new entry will be saved to the disc.
+When clicked on the **Create New Page** in the sidebar, the user is taken to the page where they can create a new encyclopedia entry. They can provide the title for that entry along with the `markdown` content in the textarea. If an entry with the same title already exists, the user would be displayed with an error message. Otherwise, a new entry will be saved to the disc.
 
 #### Edit Page
 
@@ -26,7 +26,7 @@ The app provides the functionality to edit any entry by clicking on `edit this p
 
 #### Random Page
 
-Clicking on **Random Page** takes to the user to a random entry within the encyclopedia.
+Clicking on **Random Page** takes the user to a random entry within the encyclopedia.
 
 #### Markdown to HTML Conversion
 
