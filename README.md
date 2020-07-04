@@ -1,7 +1,5 @@
 # Wiki
 
-## CS50 - Web Programming with Python and JavaScript
-
 Wiki is a Web Application built using Django for creating an online encyclopedia that consists of pages on various topics. A user can visit a URL for example `/wiki/TITLE` to see the content of that entry. The user also has the ability to create their own entries/pages by using **Create New Page** link. Finally, if a user clicks on **Random Page** they will be taken to a random page in the encyclopedia.
 
 #### Entry Page
