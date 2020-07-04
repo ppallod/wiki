@@ -38,14 +38,8 @@ def search(request):
             "entries": results
             })
 
-        markdowner = Markdown()
-        title = q
-        content = markdowner.convert(results)
-        return render(request, "encyclopedia/entry.html", {
-        'title':title,
-        'content':content
-        })
-
+        return HttpResponseRedirect(reverse("encyclopedia:entry",args=(q,)))
+        
 def newitem(request):
     if request.method == "GET":
         return render(request,"encyclopedia/newitem.html")
