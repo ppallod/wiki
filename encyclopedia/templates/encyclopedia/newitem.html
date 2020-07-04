@@ -1,0 +1,20 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Create New Page
+{% endblock %}
+
+{% block body %}
+    <h1>Create New Page</h1>
+    <form action="{% url 'encyclopedia:newitem' %}" method="POST">
+        {% csrf_token %}
+        <label>Page Title</label>
+        <input name="title" type="text" placeholder="Title" required>
+        <div><label>Page Content</label></div>
+        <div >
+            <textarea name="content" type="text" placeholder="Page Content" required></textarea>
+        </div>
+        <input type="submit">
+    </form>
+
+{% endblock %}
